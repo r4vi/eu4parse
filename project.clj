@@ -7,4 +7,8 @@
              "-Xms4g"
              "-Xmx4g"]
   :dependencies [[org.clojure/clojure "1.5.1"]
-                 [instaparse "1.2.13"]])
+                 [instaparse "1.2.13"]
+                 [org.apache.commons/commons-lang3 "3.2.1"]
+                 [org.clojure/data.xml "0.0.7"]
+                 [clojure-csv/clojure-csv "2.0.1"]
+                 [org.clojure/data.zip "0.1.1"]])
